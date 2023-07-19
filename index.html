@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Digital</title>
+    <script src="js.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>by Beranrdo Rodrigues</h1>
+        </header>
+        <article id="calculadora">
+                <h1>Calculadora</h1>
+            <p id="resultado"></p>
+            <table id="" class="teclas">
+                <tr class="linha1">
+                    <td><button class="botoes" id="C" onclick="apagarConta('C')">C</button></td>
+                    <td><button class="botoes" id="<" onclick="apagarUltimoNumero()"><</button></td>
+                    <td><button class="botoes" id="/" onclick="insert('/')">/</button></td>
+                    <td><button class="botoes" id="*" onclick="insert('*')">*</button></td>
+                </tr>
+                <tr class="linha2">
+                    <td><button class="botoes" id="sete" onclick="insert('7')">7</button></td>
+                    <td><button class="botoes" id="oito" onclick="insert('8')">8</button></td>
+                    <td><button class="botoes" id="nove" onclick="insert('9')">9</button></td>
+                    <td><button class="botoes" id="menos" onclick="insert('-')">-</button></td>
+                </tr>
+                <tr class="linha3">
+                    <td><button class="botoes" id="quatro" onclick="insert('4')">4</button></td>
+                    <td><button class="botoes" id="cinco" onclick="insert('5')">5</button></td>
+                    <td><button class="botoes" id="seis" onclick="insert('6')">6</button></td>
+                    <td><button class="botoes" id="mais" onclick="insert('+')">+</button></td>
+                </tr>
+                <tr class="linha4">
+                    <td><button class="botoes" id="um" onclick="insert('1')">1</button></td>
+                    <td><button class="botoes" id="dois" onclick="insert('2')">2</button></td>
+                    <td><button class="botoes" id="tres" onclick="insert('3')">3</button></td>
+                    <td rowspan="2"><button class="botoes" id="igual" onclick="fazerContas()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="botoes" id="zero" onclick="insert('0')">0</button></td>
+                    <td><button class="botoes" onclick="insert('.')">.</button></td>
+                </tr>
+            </table>
+        </article>
+    </main>
+</body>
+</html>

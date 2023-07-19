@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(131, 25, 25);
+    align-items: center;
+}
+
+header {
+    font-size: xx-small;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    height: 8vh;
+    text-align: right;
+    font-size: x-large;
+}
+
+#calculadora {
+    background-color: rgb(27, 27, 27);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5%;
+    border-radius: 5%;
+}
+
+.botoes {
+    border-radius: 18%;
+    background-color: orange;
+    padding: 20px;
+}
+
+#igual {
+    height: 16.5vh;
+    border-radius: 12%;
+}
+
+#zero {
+    width: 7vw;
+    border-radius: 12%;
+}
